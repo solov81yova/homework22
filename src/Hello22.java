@@ -21,7 +21,6 @@ public class Hello22 {
     return "";
   }
   public static void main(String[] args) {
-    System.out.println("Hello world!");
     Scanner scanner = new Scanner(System.in);
     int dayOfWeekNumber = scanner.nextInt();
     if (dayOfWeekNumber < 1 || dayOfWeekNumber >=7) {
